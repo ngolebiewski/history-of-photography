@@ -1,0 +1,99 @@
+body{
+  font-family:Avenir, bauhaus, futura, helvetice, sans-serif;
+}
+header {
+  color: white; 
+  background-color: #0c3b89;
+  /* color based on a cyanotype https://upload.wikimedia.org/wikipedia/commons/c/c4/Anna_Atkins_algae_cyanotype.jpg*/
+  padding: 10px;
+}
+
+h1{
+  font-size: 3em;
+  margin: -.3em;
+  margin-left: 0em;
+}
+h2 {
+  font-style: oblique;
+}
+
+section>h2 {
+  color: #0c3b89;
+}
+
+nav>p {
+  display: inline;
+  margin-right: 15px;
+  padding: 5px;
+  font-size: 1.2em;
+  /* I love the way the nav bar is set up on the South Street Seaports website, logo and links are seamlessly cool */
+  /* Scroll dwon for the knock out color */
+  /* https://southstreetseaportmuseum.org/blog/ */
+  a:link,
+  a:visited,
+  a:focus {
+    color: white;
+    text-decoration: none;
+    border: solid 1px white;
+    padding: 2px;
+  }
+  a:hover {background:white;
+    color:rgb(2, 29, 111);
+    border: solid 1px white;
+    padding: 2px;
+  }
+}
+
+.caption {
+  font-style: italic;
+  color:rgb(44, 49, 89);
+}
+
+img {
+  max-width: 500px;
+  align-content: center;
+}
+
+section {
+  padding:10px;
+  max-width: 1200px;
+  display: block;
+}
+
+article {
+  display: inline-block;
+  border: solid 2px #72a6d8;
+  margin: 5px;
+  padding: 20px;
+  width: 540px;
+  vertical-align: top;
+}
+
+
+a:link,
+  a:visited,
+  a:focus {
+    color: rgb(236, 82, 0);
+    text-decoration: underline;
+  }
+
+#blueprint-blank {
+  background-color: #0c3b89;
+  height: 285px;
+  p {
+    color: white;
+  }
+}
+
+.album {
+  background-color: aliceblue;
+  margin: 10px;
+}
+
+.album>img {
+  width: 400px;
+  padding: 10px;
+  vertical-align: top;
+  margin: 10px;
+  border: solid 2px #72a6d8;
+}
