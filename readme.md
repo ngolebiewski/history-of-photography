@@ -1,4 +1,4 @@
-# Info about early photographuc methods
+# Info about early photographic methods
 
 Fullstack Academy Status
 - First weekend of bootcamp
